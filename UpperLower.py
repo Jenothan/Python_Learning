@@ -1,0 +1,23 @@
+name = "     Welcome to python      "
+
+print(name)
+print(name.lower())
+print(name.upper())
+print(name.capitalize())
+print(name.swapcase())
+
+print("isalpha: ", name.isalpha())
+print("isdigit: ",name.isdigit())
+print("islower: ",name.islower())
+print("isupper: ",name.isupper())
+print("isspace: ",name.isspace())
+print("is there Welcome word on name: ",name.startswith('Welcome'))
+print("is name ending with n letter: ",name.endswith('n'))
+print(name.find('Java'))
+print(name.index('to'))
+print(name.count('   '))
+print(name.replace("python", "Java"))
+print(name.strip())
+print(name.lstrip())
+print(name.rstrip())
+print(name.split())
